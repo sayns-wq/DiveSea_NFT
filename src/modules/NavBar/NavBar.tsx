@@ -1,20 +1,17 @@
 "use client";
+import { NavItem } from "@/interfaces/main";
 import Button from "@/ui/Button/Button";
 import Search from "@/ui/Search/Search";
 import Image from "next/image";
 import React, { useState } from "react";
 
-interface navItems {
-  name: string;
-  link: string;
-}
 interface navBarProps {
-  navItems: navItems[];
+  navItems: NavItem[];
 }
 function NavBar({ navItems }: navBarProps) {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   return (
-    <nav className="flex flex-row justify-between py-1 md:py-2 items-center w-full relative">
+    <nav className="flex flex-row justify-between py-2 md:py-6 items-center w-full relative">
       <Image src="/main/Logo.svg" width={50} height={50} alt="logo" />
       <ul className="hidden flex-row justify-start md:flex">
         {navItems.map((item) => {
