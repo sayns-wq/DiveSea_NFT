@@ -14,7 +14,7 @@ interface footerProps {
 }
 export default function Footer({ navItems }: footerProps) {
   return (
-    <div className="flex flex-col gap-5 px-[96px] py-[110px] bg-black w-full">
+    <footer className="flex flex-col gap-5 px-[96px] py-[110px] bg-black w-full">
       <div className="flex flex-col justify-between  items-center lg:flex-row">
         <div className="flex flex-row gap-4 items-center">
           <Image
@@ -68,6 +68,6 @@ export default function Footer({ navItems }: footerProps) {
           />
         </div>
       </div>
-    </div>
+    </footer>
   );
 }

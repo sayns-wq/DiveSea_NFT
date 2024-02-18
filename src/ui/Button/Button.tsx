@@ -8,13 +8,18 @@ enum buttonState {
 }
 interface buttonProps {
   variant: "primary" | "secondary" | "white";
+  width?: string;
   children: ReactNode;
 }
 
-export default function Button({ variant, children }: buttonProps) {
+export default function Button({ variant, width, children }: buttonProps) {
   return (
     <button
-      className={`${buttonState[variant]} p-2 border-2 rounded-xl font-semibold w-fit sm:p-4`}
+      className={`${
+        buttonState[variant]
+      } p-2 border-2 rounded-xl font-semibold ${
+        width ? width : "w-fit"
+      } sm:p-4`}
     >
       {children}
     </button>

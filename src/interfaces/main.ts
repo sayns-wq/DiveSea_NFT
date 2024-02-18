@@ -1,8 +1,13 @@
 export interface NFT_Card_interface {
+  id: number;
   picture: string;
+  description: string;
   time: string;
   name: string;
   bid: string;
+  createBy: number;
+  ownBy: number;
+  endIn: string;
 }
 
 type topDataHedersType = [

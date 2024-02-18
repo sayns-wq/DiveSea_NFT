@@ -10,25 +10,6 @@ import Top_collection from "@/modules/Top_collection/Top_collection";
 
 import Image from "next/image";
 
-const navItems: NavItem[] = [
-  {
-    name: "Discover",
-    link: "/",
-  },
-  {
-    name: "creators",
-    link: "/",
-  },
-  {
-    name: "Sell",
-    link: "/",
-  },
-  {
-    name: "stats",
-    link: "/",
-  },
-];
-
 const topCollectionData: topDatainterface = {
   headers: ["Collection", "Volume", "24h %", "Floor Price", "Owners", "Items"],
   data: [
@@ -102,7 +83,6 @@ export default function Home() {
   return (
     <>
       <main className="flex min-h-screen flex-col items-start px-8 lg:px-24 overflow-x-hidden">
-        <NavBar navItems={navItems} />
         <MainPageHead />
         <TopNFT />
         <Top_collection collections={topCollectionData} />
@@ -112,9 +92,6 @@ export default function Home() {
           <Banner />
         </div>
       </main>
-      <footer>
-        <Footer navItems={navItems} />
-      </footer>
     </>
   );
 }

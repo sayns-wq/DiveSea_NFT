@@ -3,6 +3,7 @@ import { NavItem } from "@/interfaces/main";
 import Button from "@/ui/Button/Button";
 import Search from "@/ui/Search/Search";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 
 interface navBarProps {
@@ -11,16 +12,18 @@ interface navBarProps {
 function NavBar({ navItems }: navBarProps) {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   return (
-    <nav className="flex flex-row justify-between py-2 md:py-6 items-center w-full relative">
-      <Image src="/main/Logo.svg" width={50} height={50} alt="logo" />
+    <nav className="flex flex-row justify-between py-2 px-24 md:py-6 items-center w-full relative">
+      <Link href={"/"}>
+        <Image src="/main/Logo.svg" width={50} height={50} alt="logo" />
+      </Link>
       <ul className="hidden flex-row justify-start md:flex">
         {navItems.map((item) => {
           return (
             <li
-              className="mx-4 text-teal-900 uppercase cursor-pointer"
+              className="mx-4 text-teal-900 uppercase cursor-pointer py-4"
               key={item.name}
             >
-              {item.name}
+              <Link href={item.link}>{item.name}</Link>
             </li>
           );
         })}

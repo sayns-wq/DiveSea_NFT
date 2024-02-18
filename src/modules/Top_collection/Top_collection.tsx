@@ -2,16 +2,13 @@ import "swiper/css";
 import React from "react";
 import Image from "next/image";
 import { topDatainterface } from "@/interfaces/main";
+import { curencyPictures } from "@/data/data";
 interface Top_collection_Props {
   collections?: topDatainterface;
 }
 
-const curencyPictures: any = {
-  euthirium: "/main/euthiriumCurrency.svg",
-};
 const mobileRows = ["Collection", "Volume"];
 const mobileTableData = ["Collection"];
-const mobileUnitedBlock = ["Volume", "24h %"];
 
 function Cell24({ item }: any) {
   return (
