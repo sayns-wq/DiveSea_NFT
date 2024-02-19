@@ -5,8 +5,9 @@ import React from "react";
 
 interface NFT_info_block {
   card: NFT_Card_interface;
+  handler: () => void;
 }
-export default function NFT_info_block({ card }: NFT_info_block) {
+export default function NFT_info_block({ card, handler }: NFT_info_block) {
   return (
     <div className="flex flex-col text-center justify-center w-full bg-white rounded-2xl p-[36px] items-center lg:flex-row">
       <Image src={card.picture} width={550} height={550} alt="image"></Image>
@@ -78,7 +79,7 @@ export default function NFT_info_block({ card }: NFT_info_block) {
             </h3>
           </div>
         </div>
-        <Button variant="primary" width="w-full">
+        <Button variant="primary" width="w-full" handler={handler}>
           Place Bid
         </Button>
       </div>

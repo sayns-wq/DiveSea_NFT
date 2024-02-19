@@ -10,9 +10,10 @@ interface buttonProps {
   variant: "primary" | "secondary" | "white";
   width?: string;
   children: ReactNode;
+  handler?: () => void;
 }
 
-export default function Button({ variant, width, children }: buttonProps) {
+export default function Button({ variant, width, children,handler }: buttonProps) {
   return (
     <button
       className={`${
@@ -20,6 +21,7 @@ export default function Button({ variant, width, children }: buttonProps) {
       } p-2 border-2 rounded-xl font-semibold ${
         width ? width : "w-fit"
       } sm:p-4`}
+      onClick={handler}
     >
       {children}
     </button>

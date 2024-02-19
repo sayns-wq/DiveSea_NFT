@@ -5,7 +5,7 @@ import Person_Bid from "../Person_Bid/Person_Bid";
 
 export default function Bid_history_popup() {
   return (
-    <div className="flex flex-col p-5 bg-white w-max gap-7 items-start rounded-2xl">
+    <div className="flex flex-col p-5 bg-white w-max gap-7 items-start rounded-2xl border-black border-2">
       <div>
         <h4 className="font-semibold text-xl">History of Bid</h4>
         <h3 className="text-[13px] text-[#888888] text-start md:text-[17px]">
