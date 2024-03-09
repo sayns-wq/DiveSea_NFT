@@ -1,55 +1,12 @@
-import NFT_Ctads_scroll from "@/components/NFT_Ctads_scroll/NFT_Ctads_scroll";
-import React, { useState } from "react";
-const NFT_Cards = [
-  {
-    picture: "/main/NFT_1.jpg",
-    time: "07h 09m 12s",
-    name: "Sun-Glass",
-    bid: "1.75",
-  },
-  {
-    picture: "/main/NFT_1.jpg",
-    time: "07h 09m 12s",
-    name: "Sun-Glass",
-    bid: "1.75",
-  },
-  {
-    picture: "/main/NFT_1.jpg",
-    time: "07h 09m 12s",
-    name: "Sun-Glass",
-    bid: "1.75",
-  },
-  {
-    picture: "/main/NFT_1.jpg",
-    time: "07h 09m 12s",
-    name: "Sun-Glass",
-    bid: "1.75",
-  },
-  {
-    picture: "/main/NFT_1.jpg",
-    time: "07h 09m 12s",
-    name: "Sun-Glass",
-    bid: "1.75",
-  },
-  {
-    picture: "/main/NFT_1.jpg",
-    time: "07h 09m 12s",
-    name: "Sun-Glass",
-    bid: "1.75",
-  },
-  {
-    picture: "/main/NFT_1.jpg",
-    time: "07h 09m 12s",
-    name: "Sun-Glass",
-    bid: "1.75",
-  },
-  {
-    picture: "/main/NFT_1.jpg",
-    time: "07h 09m 12s",
-    name: "Sun-Glass",
-    bid: "1.75",
-  },
-];
+import React, { lazy, useState } from "react";
+import dynamic from "next/dynamic";
+import Loading from "@/ui/Loading/Loading";
+import { NFT_Cards } from "../../data/data";
+
+const NFT_Ctads_scroll = dynamic(()=> import('@/components/NFT_Ctads_scroll/NFT_Ctads_scroll'), { ssr: false,
+    loading: () => <Loading/>,
+   })
+
 export default function TopNFT() {
   return (
     <div className="flex flex-col text-center py-24 gap-4 w-full items-center">

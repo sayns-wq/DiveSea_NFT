@@ -2,8 +2,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import React from "react";
-import NFT_Card from "../NFT_Card/NFT_Card";
-import SwiperNavigationButton from "@/ui/SwiperNavigationButton/SwiperNavigationButton";
 import { NFT_Card_interface } from "../../interfaces/main";
 import NFT_Card_Small from "../NFT_Card_Small/NFT_Card_Small";
 interface NFT_Card_Scroll_props {
@@ -45,7 +43,7 @@ export default function NFT_small_cards_scroll({
         {NFT_Cards &&
           NFT_Cards.map((card) => {
             return (
-              <SwiperSlide>
+              <SwiperSlide key={card.id}>
                 <NFT_Card_Small {...card} />
               </SwiperSlide>
             );

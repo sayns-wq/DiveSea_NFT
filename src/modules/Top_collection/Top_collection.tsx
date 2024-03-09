@@ -63,6 +63,7 @@ export default function Top_collection({ collections }: Top_collection_Props) {
               collections.headers.map((headerItem: string) => {
                 return (
                   <th
+                    key={headerItem}
                     className={`${
                       mobileRows.includes(headerItem)
                         ? "table-cell"

@@ -37,7 +37,7 @@ export default function NFT_Ctads_scroll({ NFT_Cards }: NFT_Card_Scroll_props) {
         {NFT_Cards &&
           NFT_Cards.map((card) => {
             return (
-              <SwiperSlide>
+              <SwiperSlide key={card.id}>
                 <NFT_Card {...card} />
               </SwiperSlide>
             );
