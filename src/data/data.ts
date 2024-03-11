@@ -232,3 +232,383 @@ export const NFT_owners = [
 export const curencyPictures: any = {
   euthirium: "/main/euthiriumCurrency.svg",
 };
+export const creatorDataArray = [
+  {
+    data: {
+      currentItems: {
+        currency: "",
+        value: "58000",
+      },
+      totalItems: {
+        currency: "",
+        value: "1580000",
+      },
+      price: {
+        currency: "ethitium",
+        value: "17.5",
+      },
+      traded: {
+        currency: "ethitium",
+        value: "13.5",
+      },
+    },
+    dataPictures: [
+      {
+        id: 1,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 2,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 3,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 4,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 5,
+        src: "/main/NFT_2.png",
+      },
+    ],
+  },
+  {
+    data: {
+      currentItems: {
+        currency: "",
+        value: "58000",
+      },
+      totalItems: {
+        currency: "",
+        value: "1580000",
+      },
+      price: {
+        currency: "ethitium",
+        value: "17.5",
+      },
+      traded: {
+        currency: "ethitium",
+        value: "13.5",
+      },
+    },
+    dataPictures: [
+      {
+        id: 1,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 2,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 3,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 4,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 5,
+        src: "/main/NFT_2.png",
+      },
+    ],
+  },
+  {
+    data: {
+      currentItems: {
+        currency: "",
+        value: "58000",
+      },
+      totalItems: {
+        currency: "",
+        value: "1580000",
+      },
+      price: {
+        currency: "ethitium",
+        value: "17.5",
+      },
+      traded: {
+        currency: "ethitium",
+        value: "13.5",
+      },
+    },
+    dataPictures: [
+      {
+        id: 1,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 2,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 3,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 4,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 5,
+        src: "/main/NFT_2.png",
+      },
+    ],
+  },
+  {
+    data: {
+      currentItems: {
+        currency: "",
+        value: "58000",
+      },
+      totalItems: {
+        currency: "",
+        value: "1580000",
+      },
+      price: {
+        currency: "ethitium",
+        value: "17.5",
+      },
+      traded: {
+        currency: "ethitium",
+        value: "13.5",
+      },
+    },
+    dataPictures: [
+      {
+        id: 1,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 2,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 3,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 4,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 5,
+        src: "/main/NFT_2.png",
+      },
+    ],
+  },
+  {
+    data: {
+      currentItems: {
+        currency: "",
+        value: "58000",
+      },
+      totalItems: {
+        currency: "",
+        value: "1580000",
+      },
+      price: {
+        currency: "ethitium",
+        value: "17.5",
+      },
+      traded: {
+        currency: "ethitium",
+        value: "13.5",
+      },
+    },
+    dataPictures: [
+      {
+        id: 1,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 2,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 3,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 4,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 5,
+        src: "/main/NFT_2.png",
+      },
+    ],
+  },
+  {
+    data: {
+      currentItems: {
+        currency: "",
+        value: "58000",
+      },
+      totalItems: {
+        currency: "",
+        value: "1580000",
+      },
+      price: {
+        currency: "ethitium",
+        value: "17.5",
+      },
+      traded: {
+        currency: "ethitium",
+        value: "13.5",
+      },
+    },
+    dataPictures: [
+      {
+        id: 1,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 2,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 3,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 4,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 5,
+        src: "/main/NFT_2.png",
+      },
+    ],
+  },
+  {
+    data: {
+      currentItems: {
+        currency: "",
+        value: "58000",
+      },
+      totalItems: {
+        currency: "",
+        value: "1580000",
+      },
+      price: {
+        currency: "ethitium",
+        value: "17.5",
+      },
+      traded: {
+        currency: "ethitium",
+        value: "13.5",
+      },
+    },
+    dataPictures: [
+      {
+        id: 1,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 2,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 3,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 4,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 5,
+        src: "/main/NFT_2.png",
+      },
+    ],
+  },
+  {
+    data: {
+      currentItems: {
+        currency: "",
+        value: "58000",
+      },
+      totalItems: {
+        currency: "",
+        value: "1580000",
+      },
+      price: {
+        currency: "ethitium",
+        value: "17.5",
+      },
+      traded: {
+        currency: "ethitium",
+        value: "13.5",
+      },
+    },
+    dataPictures: [
+      {
+        id: 1,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 2,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 3,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 4,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 5,
+        src: "/main/NFT_2.png",
+      },
+    ],
+  },
+  {
+    data: {
+      currentItems: {
+        currency: "",
+        value: "58000",
+      },
+      totalItems: {
+        currency: "",
+        value: "1580000",
+      },
+      price: {
+        currency: "ethitium",
+        value: "17.5",
+      },
+      traded: {
+        currency: "ethitium",
+        value: "13.5",
+      },
+    },
+    dataPictures: [
+      {
+        id: 1,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 2,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 3,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 4,
+        src: "/main/NFT_2.png",
+      },
+      {
+        id: 5,
+        src: "/main/NFT_2.png",
+      },
+    ],
+  },
+];

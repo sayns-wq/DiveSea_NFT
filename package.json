@@ -21,7 +21,8 @@
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",
     "react-select": "^5.8.0",
-    "swiper": "^11.0.5"
+    "swiper": "^11.0.5",
+    "ts-transformer-keys": "^0.4.4"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.4.1",

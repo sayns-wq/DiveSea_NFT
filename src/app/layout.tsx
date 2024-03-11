@@ -14,7 +14,7 @@ const navItems: NavItem[] = [
   },
   {
     name: "creators",
-    link: "/",
+    link: "/creators",
   },
   {
     name: "Sell",
